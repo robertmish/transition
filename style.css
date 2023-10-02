@@ -4,20 +4,25 @@ body {
 }
 
 .parent {
-background-color: blue;
-height: 400px;
-width: 400px;
+margin:0 auto;
+width: 1200px;
+display: flex;
+justify-content: space-between;
 }
 
 
 .children {
-background-color: red;
-height: 50%;
-width: 50%;
-transition: all 1s;
+background-color: rgb(234, 239, 240);
+width: 300px;
+height: auto;
+padding: 10px;
+transition: all ease-out 1s;
 
 }
 
+
 .parent:hover .children {
-    transform:translateX(100%)
+color:#fff;
+background-color: black;
+text-align: center;
 }
