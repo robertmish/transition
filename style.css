@@ -3,26 +3,39 @@ body {
     margin:0;
 }
 
+section {
+
+    height: 500px;
+    background-color: black;
+}
+
 .parent {
-margin:0 auto;
-width: 1200px;
-display: flex;
-justify-content: space-between;
+    background: url(images/bg.jpeg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
 }
 
 
 .children {
-background-color: rgb(234, 239, 240);
-width: 300px;
-height: auto;
+background-color: rgb(47, 194, 223);
+width: 100px;
+height: 200px;
 padding: 10px;
 transition: all ease-out 1s;
-
+text-align: center;
 }
 
 
-.parent:hover .children {
+.children:hover {
 color:#fff;
 background-color: black;
-text-align: center;
+
 }
